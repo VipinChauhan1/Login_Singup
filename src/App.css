@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: aquamarine;
+}
+
+.ant-row.ant-form-item-row.css-dev-only-do-not-override-1okl62o {
+  margin: 10px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+.wrapper {
+  width: 600px;
+  height: 500px;
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: green;
+  color: white;
+  flex-direction: column;
+  height: 100px;
+}
+
+.login-header h2 {
+  font-weight: 600;
+}
+.form-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.form {
+  width: 300px;
+}
+
+.input-box {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid green;
+
+  color: #ccc;
+}
+.input-box:hover {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid green;
+
+  color: #ccc;
+}
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.remerber-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.remerber-account :nth-child(2) {
+  cursor: pointer;
+}
+.form-button button {
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (min-width: 321px) and (max-width: 772px) {
+  .form-button {
+    margin-top: 0;
+  }
+}
